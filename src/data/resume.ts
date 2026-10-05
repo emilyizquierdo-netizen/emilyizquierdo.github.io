@@ -27,63 +27,63 @@ export interface SkillGroup {
 /** Work history — newest first. Shown on /work */
 export const experience: Experience[] = [
   {
-    role: 'Senior Software Engineer',
-    company: 'Example Corp',
-    companyUrl: 'https://example.com',
+    role: 'Licenciada en Comercion Exterior',
+    company: 'Aktion Projects & Logistics',
+    companyUrl: 'https://aktion.com.ec',
     location: 'Remote',
     start: 'Mar 2024',
     end: 'Present',
     current: true,
-    summary: 'Replace this with a one-line summary of what you own or lead.',
+    summary: 'Dirijo la part de ventas de la compañia.',
     bullets: [
-      'Describe a thing you built, shipped, or led — outcomes over responsibilities.',
-      'Another bullet. Numbers help: latency cut in half, adoption up 3×, etc.',
-      'Mentoring, design reviews, on-call, whatever actually fills your week.',
+      '+1000 contenedores cotizados.',
+      'Comercio Exterior. Numero de referencia: 0986547512',
+      'Simplemente una gran empresa',
     ],
-    badges: ['TypeScript', 'Go', 'Kubernetes'],
+    badges: ['MSL', 'GLOBAL WORKSHIP', 'Intermodal'],
   },
   {
-    role: 'Software Engineer',
-    company: 'Startup Inc.',
-    companyUrl: 'https://example.com',
-    location: 'Portland, OR',
-    start: 'Jul 2021',
+    role: 'Ing. Comercio Exterior',
+    company: 'Aktion Projects & Logistics.',
+    companyUrl: 'https://aktion.com.ec',
+    location: 'Guayaquil, GYE',
+    start: 'Mar 2012',
     end: 'Feb 2024',
-    summary: 'One line about the product and your slice of it.',
+    summary: 'Solo hazlo.',
     bullets: [
-      'Owned X end to end — design, implementation, rollout.',
-      'Built Y used by Z customers.',
+      'Dirigido por mi misma',
+      'Creado por todos y para todos',
     ],
   },
 ];
 
 /** Smaller/older roles — rendered as compact rows under the main timeline */
-export const earlierRoles: { role: string; company: string; start: string; end: string }[] = [
-  { role: 'Engineering Intern', company: 'Some Company', start: '2020', end: '2021' },
+export const earlierRoles: { rol: string; compañia: string; empezo: string; termino: string }[] = [
+  { role: 'Comañia de ingenieria', company: 'TOSFON', start: '2025', end: '2026' },
 ];
 
 export const education: Education[] = [
   {
-    degree: 'B.S.',
-    field: 'Computer Science',
-    school: 'State University',
-    start: '2016',
-    end: '2020',
+    grado: 'Bachillerato',
+    especializacion: 'Informatica',
+    Escuela: 'Jean Piaget',
+    start: '2021',
+    end: '2027',
   },
 ];
 
 export const skillGroups: SkillGroup[] = [
   {
-    title: 'Languages',
-    skills: ['TypeScript', 'Python', 'Go'],
+    title: 'Lenguajes',
+    skills: ['SQL', 'Python', 'C++'],
   },
   {
-    title: 'Platforms & Tools',
+    title: 'Plataformas y herramientas',
     skills: ['React', 'PostgreSQL', 'Docker', 'AWS'],
   },
   {
-    title: 'Interests',
-    skills: ['Distributed systems', 'Developer tooling', 'Photography'],
+    title: 'Intereses',
+    skills: ['Programacion', 'Soporte tecnico', 'Diseño Web'],
   },
 ];
 
